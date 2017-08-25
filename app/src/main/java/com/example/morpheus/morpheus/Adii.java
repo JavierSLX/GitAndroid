@@ -63,7 +63,7 @@ public class Adii extends AppCompatActivity {
 
     private ArrayList<AdiiListView> listar() {
         ArrayList<AdiiListView> lista = new ArrayList<>();
-        String[] titulos = getResources().getStringArray(R.array.spinner);
+        String[] titulos = getResources().getStringArray(R.array.opciones);
           //crea la lista
 
         for (int i = 0; i < titulos.length; i++){
@@ -74,7 +74,7 @@ public class Adii extends AppCompatActivity {
 
     private ArrayList<AdiiListView> listarNombres() {
         ArrayList<AdiiListView> lista = new ArrayList<>();
-        String[] titulos = getResources().getStringArray(R.array.Nombres);
+        String[] titulos = getResources().getStringArray(R.array.nombres);
         //crea la lista
 
         for (int i = 0; i < titulos.length; i++){
@@ -85,7 +85,7 @@ public class Adii extends AppCompatActivity {
 
     private ArrayList<AdiiListView> listarDias() {
         ArrayList<AdiiListView> lista = new ArrayList<>();
-        String[] titulos = getResources().getStringArray(R.array.Dias);
+        String[] titulos = getResources().getStringArray(R.array.semana);
         //crea la lista
 
         for (int i = 0; i < titulos.length; i++){
@@ -96,7 +96,7 @@ public class Adii extends AppCompatActivity {
 
     private ArrayList<AdiiListView> listarMeses() {
         ArrayList<AdiiListView> lista = new ArrayList<>();
-        String[] titulos = getResources().getStringArray(R.array.Meses);
+        String[] titulos = getResources().getStringArray(R.array.meses);
         //crea la lista
 
         for (int i = 0; i < titulos.length; i++){

@@ -25,7 +25,7 @@ public class AngelActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_angel);
         //Se obtiene el array-string deseado
-        String []titulos=getResources().getStringArray(R.array.opcionesAngel);
+        String []titulos=getResources().getStringArray(R.array.opciones);
         //Se inicaliza el arraylist y se le agregan los item del arreglo
         opcionesAngel=new ArrayList<>();
         for(int i=0;i<titulos.length;i++)
@@ -47,17 +47,17 @@ public class AngelActivity extends AppCompatActivity {
                 {
                     //Opcion seleccionada dias
                     case 0:
-                        String []titulos=getResources().getStringArray(R.array.diasAngel);
+                        String []titulos=getResources().getStringArray(R.array.nombres);
                         mostrarElementos(titulos);
                         break;
                     //Opcion seleccionada meses
                     case 1:
-                        titulos=getResources().getStringArray(R.array.mesesAngel);
+                        titulos=getResources().getStringArray(R.array.semana);
                         mostrarElementos(titulos);
                         break;
                     //Opcion seleccionada equipo
                     case 2:
-                        titulos=getResources().getStringArray(R.array.equipoAngel);
+                        titulos=getResources().getStringArray(R.array.meses);
                         mostrarElementos(titulos);
                         break;
                 }
@@ -66,7 +66,7 @@ public class AngelActivity extends AppCompatActivity {
             //Metodo que se ejecuta cuando no hay elementos seleccionados
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
-                String []titulos=getResources().getStringArray(R.array.diasAngel);
+                String []titulos=getResources().getStringArray(R.array.semana);
                 mostrarElementos(titulos);
             }
         });

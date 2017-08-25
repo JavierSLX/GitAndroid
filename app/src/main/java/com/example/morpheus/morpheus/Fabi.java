@@ -39,13 +39,13 @@ public class Fabi extends AppCompatActivity {
 
                         break;
                     case 1:
-                        modeloAdapter adapter1 = new modeloAdapter(listarmeses(),Fabi.this);
+                        modeloAdapter adapter1 = new modeloAdapter(listarDias(),Fabi.this);
                         lista.setAdapter(adapter1);
 
 
                         break;
                     case 2:
-                        modeloAdapter adapter2 = new modeloAdapter(listarDias(),Fabi.this);
+                        modeloAdapter adapter2 = new modeloAdapter(listarmeses(),Fabi.this);
                         lista.setAdapter(adapter2);
                         break;
                 }
@@ -97,7 +97,7 @@ public class Fabi extends AppCompatActivity {
     }
     private ArrayList<modelo> listarDias() {
         ArrayList<modelo> lista = new ArrayList<>();
-        String[] opciones = getResources().getStringArray(R.array.dias);
+        String[] opciones = getResources().getStringArray(R.array.semana);
 
         //crea la lista
 

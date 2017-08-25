@@ -38,15 +38,15 @@ public class Lista_Activity extends AppCompatActivity {
                 AdaperLisView adaperLisViewM;
                 switch(i){
                     case 0:
-                        adaperLisViewM = new AdaperLisView(listaDias(), Lista_Activity.this);
+                        adaperLisViewM = new AdaperLisView(listaMiebros(), Lista_Activity.this);
                         listView.setAdapter(adaperLisViewM);
                         break;
                     case 1:
-                        adaperLisViewM = new AdaperLisView(listaMeses(), Lista_Activity.this);
+                        adaperLisViewM = new AdaperLisView(listaDias(), Lista_Activity.this);
                         listView.setAdapter(adaperLisViewM);
                         break;
                     case 2:
-                        adaperLisViewM = new AdaperLisView(listaMiebros(), Lista_Activity.this);
+                        adaperLisViewM = new AdaperLisView(listaMeses(), Lista_Activity.this);
                         listView.setAdapter(adaperLisViewM);
                         break;
                 }
@@ -66,7 +66,7 @@ public class Lista_Activity extends AppCompatActivity {
     }
     private ArrayList<String> listaMuestreo(){
         ArrayList<String> lista = new ArrayList<>();
-        String[] nombres = getResources().getStringArray(R.array.muestreo);
+        String[] nombres = getResources().getStringArray(R.array.opciones);
 
         for(int i = 0; i < nombres.length; i++)
             lista.add(nombres[i]);
@@ -76,7 +76,7 @@ public class Lista_Activity extends AppCompatActivity {
 
     private ArrayList<String> listaMiebros(){
         ArrayList<String> lista = new ArrayList<>();
-        String[] nombres = getResources().getStringArray(R.array.Miembros);
+        String[] nombres = getResources().getStringArray(R.array.nombres);
 
         for(int i = 0; i < nombres.length; i++)
             lista.add(nombres[i]);
@@ -85,7 +85,7 @@ public class Lista_Activity extends AppCompatActivity {
     }
     private ArrayList<String> listaDias(){
         ArrayList<String> lista = new ArrayList<>();
-        String[] nombres = getResources().getStringArray(R.array.Dias);
+        String[] nombres = getResources().getStringArray(R.array.semana);
 
         for(int i = 0; i < nombres.length; i++)
             lista.add(nombres[i]);
@@ -94,7 +94,7 @@ public class Lista_Activity extends AppCompatActivity {
     }
     private ArrayList<String> listaMeses(){
         ArrayList<String> lista = new ArrayList<>();
-        String[] nombres = getResources().getStringArray(R.array.Meses);
+        String[] nombres = getResources().getStringArray(R.array.meses);
 
         for(int i = 0; i < nombres.length; i++)
             lista.add(nombres[i]);
