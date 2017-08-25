@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button javier;
 	private Button btnFabi;
+    Button adi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,5 +39,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        adi = (Button) findViewById(R.id.adi);
+
+       // Evento del boton adi
+        adi.setOnClickListener(new View.OnClickListener() {
+         @Override
+        public void onClick(View view) {
+              Intent intent = new Intent(MainActivity.this, Adii.class);
+            startActivity(intent);
+            }
+        });
     }
 }

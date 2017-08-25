@@ -16,7 +16,21 @@
         <item>Sábado</item>
         <item>Domingo</item>
 
-    <string-array name="dias">
+    <string-array name="spinner">
+        <item>Nombres</item>
+        <item>Dias de la semana</item>
+        <item>Meses</item>
+    </string-array>
+
+    <string-array name="Nombres">
+        <item>Adi</item>
+        <item>Fabi</item>
+        <item>Javi</item>
+        <item>Jesus</item>
+        <item>Angel</item>
+    </string-array>
+
+    <string-array name="Dias">
         <item>Lunes</item>
         <item>Martes</item>
         <item>Miercoles</item>
@@ -26,7 +40,7 @@
         <item>Domingo</item>
     </string-array>
 
-    <string-array name="meses">
+    <string-array name="Meses">
         <item>Enero</item>
         <item>Febrero</item>
         <item>Marzo</item>
@@ -49,6 +63,4 @@
         <item>Javier Serrano Lule</item>
     </string-array>
 
-    
-    
 </resources>
