@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">Morpheus</string>
+
+    <string-array name="opciones">
+        <item>Nombres</item>
+        <item>Días</item>
+        <item>Meses</item>
+    </string-array>
+
+    <string-array name="semana">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+
+    <string-array name="meses">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+
+    <string-array name="nombres">
+        <item>Adriana Molina López</item>
+        <item>Sandra Fabiola Ramírez Martínez</item>
+        <item>Jesús Alberto Ferreira Calderón</item>
+        <item>Ángel Campos Alejo</item>
+        <item>Javier Serrano Lule</item>
+    </string-array>
 </resources>
