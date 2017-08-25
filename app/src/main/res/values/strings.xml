@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Morpheus</string>
 
-    <string-array name="opciones">
+	<string-array name="opciones">
         <item>Nombres</item>
         <item>Días</item>
         <item>Meses</item>
@@ -14,6 +14,15 @@
         <item>Jueves</item>
         <item>Viernes</item>
         <item>Sábado</item>
+        <item>Domingo</item>
+
+    <string-array name="dias">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sabado</item>
         <item>Domingo</item>
     </string-array>
 
@@ -39,4 +48,7 @@
         <item>Ángel Campos Alejo</item>
         <item>Javier Serrano Lule</item>
     </string-array>
+
+    
+    
 </resources>

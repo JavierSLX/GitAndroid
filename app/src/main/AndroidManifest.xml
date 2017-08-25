@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListaActivity"></activity>
+        <activity android:name=".Fabi"></activity>
     </application>
 
 </manifest>

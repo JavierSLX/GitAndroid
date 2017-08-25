@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button javier;
+	private Button btnFabi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,5 +27,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(activity);
             }
         });
+		
+        btnFabi = (Button)findViewById(R.id.Fabi);
+
+        btnFabi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this , Fabi.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
