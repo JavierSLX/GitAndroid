@@ -30,7 +30,13 @@
         <item>Angel</item>
     </string-array>
 
-    <string-array name="Dias">
+    <string-array name="opcionesAngel">
+        <item>Días</item>
+        <item>Meses</item>
+        <item>Miembros Equipo</item>
+    </string-array>
+	
+    <string-array name="diasAngel">
         <item>Lunes</item>
         <item>Martes</item>
         <item>Miercoles</item>
@@ -40,7 +46,7 @@
         <item>Domingo</item>
     </string-array>
 
-    <string-array name="Meses">
+    <string-array name="mesesAngel">
         <item>Enero</item>
         <item>Febrero</item>
         <item>Marzo</item>
@@ -63,4 +69,12 @@
         <item>Javier Serrano Lule</item>
     </string-array>
 
+    <string-array name="equipoAngel">
+        <item>javi</item>
+        <item>adi</item>
+        <item>fabi</item>
+        <item>jesu</item>
+        <item>angel</item>
+        <item>salud</item>
+    </string-array>
 </resources>

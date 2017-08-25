@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private Button javier;
 	private Button btnFabi;
     Button adi;
+    Button angelBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +48,15 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
               Intent intent = new Intent(MainActivity.this, Adii.class);
             startActivity(intent);
+            }
+        });
+
+        angelBtn=(Button)findViewById(R.id.angelBtn);
+        angelBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,AngelActivity.class);
+                startActivity(intent);
             }
         });
     }
