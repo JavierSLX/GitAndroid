@@ -20,6 +20,7 @@
         <activity android:name=".Fabi"></activity>
         <activity android:name=".Adii"></activity>
         <activity android:name=".AngelActivity"></activity>
+        <activity android:name=".Lista_Activity"></activity>
     </application>
 
 </manifest>

@@ -15,6 +15,7 @@
         <item>Viernes</item>
         <item>Sábado</item>
         <item>Domingo</item>
+	</string-array>
 
     <string-array name="spinner">
         <item>Nombres</item>
@@ -36,7 +37,13 @@
         <item>Miembros Equipo</item>
     </string-array>
 	
-    <string-array name="diasAngel">
+    <string-array name="muestreo">
+        <item>Dias</item>
+        <item>Meses</item>
+        <item>Miembros</item>
+    </string-array>
+	
+    <string-array name="Dias">
         <item>Lunes</item>
         <item>Martes</item>
         <item>Miercoles</item>
@@ -47,6 +54,11 @@
     </string-array>
 
     <string-array name="mesesAngel">
+        <item>sabado</item>
+        <item>Domingo</item>
+    </string-array>
+	
+    <string-array name="Meses">
         <item>Enero</item>
         <item>Febrero</item>
         <item>Marzo</item>
@@ -76,5 +88,13 @@
         <item>jesu</item>
         <item>angel</item>
         <item>salud</item>
+	</string-array>
+
+    <string-array name="Miembros">
+        <item>Javi</item>
+        <item>Angel</item>
+        <item>Fabi</item>
+        <item>Adi</item>
+        <item>Jesus</item>
     </string-array>
 </resources>
